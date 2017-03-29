@@ -56,7 +56,7 @@ def main():
     to="to@address.com"
     sender = "from@address.com"
     subject = "subject"
-    msgHtml = "Hi<br/>This is love"
+    msgHtml = "Hi<br/>This is a test message"
     msgPlain = "Hi\nPlain Email"
     SendMessage(sender, to, subject, msgHtml, msgPlain)
 
